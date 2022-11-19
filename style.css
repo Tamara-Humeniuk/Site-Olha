@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #85effc;
+  --branding-color: #3dacbe;
   --secondary-color: #0039b4;
   --headind-font-family: "Roboto", serif;
   --default-font-family: "Roboto", sans-serif;
@@ -67,8 +67,7 @@ p {
 
 .introduction {
   background: var(--branding-color);
-  text-align: center;
-  padding: 40px 20px;
+  text-align: left;
 }
 .introduction p {
   margin-left: 80px;
@@ -93,6 +92,7 @@ p {
   font-weight: bold;
   line-height: 27px;
   padding: 8px 15px;
+  margin-left: 80px;
 }
 .content {
   margin-left: 80px;
