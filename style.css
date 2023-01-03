@@ -57,7 +57,7 @@ h2 {
 
 h5 {
   font-size: 30px;
-  margin: 40px 0px 30px 110px;
+  margin: 40px 0px 30px 80px;
 }
 p {
   font-size: 16px;
@@ -95,7 +95,7 @@ p {
   margin-left: 80px;
 }
 .content {
-  margin-left: 80px;
+  margin: 0 80px 0 80px;
 }
 .content i {
   color: var(--branding-color);
@@ -106,9 +106,16 @@ p {
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: -30px;
 }
-
+.content a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+.content a:hover {
+  text-decoration: underline;
+}
 .contacts a {
   text-decoration: none;
   color: black;
