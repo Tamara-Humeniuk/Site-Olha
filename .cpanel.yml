@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home/shevchu3/public_html/
+    - /bin/cp -R Site-Olha $DEPLOYPATH
+    - /bin/cp file.name $DEPLOYPATH
